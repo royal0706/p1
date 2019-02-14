@@ -1,0 +1,13 @@
+head, body {
+  text-align: center;
+}
+
+h1, h2, p {
+  font-family: 'Oswald', sans-serif;
+}
+
+blockquote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 150%;
+}
+

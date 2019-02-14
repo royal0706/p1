@@ -1,13 +1,15 @@
+<?php require('index-logic.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
-
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Oswald" rel="stylesheet">
 	<title>Jane Austen</title>
 	<meta charset="utf-8">
 
 </head>
 <body>
-	<div class="container">
+	<div class="main">
 
 		<h1>Jane Austen</h1>
 
@@ -18,7 +20,20 @@
 
 		<h2>Random Quote</h2>
 		<blockquote>
-		 It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
+			<?php 
+						
+			If ($number == 0) {
+    				echo "It is a truth universally acknowledged, that a single man in 						possession of a good fortune, must be in want of a wife.";
+			} elseif ($number == 1) {
+   				echo "It isn't what we say or think that defines us, but what we do.";
+			} elseif ($number == 2) {
+    				echo "The person, be it gentleman or lady, who has not pleasure in a 						good novel must be intolerably stupid.";
+			} elseif ($number == 3) {
+    				echo "Good opinion once lost, is lost forever.";
+			}
+   			  else {
+    				echo "Life seems but a quick succession of busy nothings.";
+			} ?>		
 		</blockquote>
 
 	</div>
