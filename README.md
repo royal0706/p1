@@ -2,7 +2,7 @@
 
 + By: Victoria Royal 
 
-+ Production URL: <http://http://p1.dwa15vr.com/>  
++ Production URL: <http://p1.dwa15vr.com/>  
 
 
 
